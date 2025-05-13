@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Azure Web App Test</title>
+</head>
+<body>
+    <h1>Welcome to my Azure Web App!</h1>
+    <p><strong>Hostname:</strong> {{ hostname }}</p>
+    <p><strong>IP Address:</strong> {{ ip_address }}</p>
+    <p><strong>Operating System:</strong> {{ os_info }}</p>
+    <p><strong>Python Version:</strong> {{ python_version }}</p>
+    <p><strong>Current Time (UTC):</strong> {{ current_time }}</p>
+    <hr>
+    <p>This is a basic Python Flask web application running on Azure App Service.</p>
+</body>
+</html>
